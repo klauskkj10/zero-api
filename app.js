@@ -6,7 +6,6 @@ const app = express();
 const input = require("input");
 const cors = require('cors');
 const fs = require('fs');
-const twilio = require('twilio');
 
 app.use(cors());
 app.set('trust proxy', 2);
